@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gainsboro;
+  font-family: sans-serif;
+  user-select: none;
+}
+
+.container {
+  max-width: 1200px;
+  width: 95%;
+  margin: 20px auto;
+  background-color: white;
+  height: 90vh;
+}
+
+.outcome-wrapper > .result {
+  text-align: center;
+}
+
+.choice {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.images {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 500px;
+}
+
+.rock,
+.paper,
+.scissor {
+  width: 300px;
+  aspect-ratio: 3/2;
+  border: 1px solid black;
+  margin: 0 5px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
